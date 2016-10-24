@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soul"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    tools:context="com.example.android.quizzitions.SoulActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@drawable/notes" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/musics"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/headingOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"
+            android:text="@string/musicHeadOne"  />
+
+        <RadioGroup
+            android:id="@+id/soulOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+
+            <RadioButton
+                android:id="@+id/radioOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mariam" />
+
+            <RadioButton
+                android:id="@+id/radioTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/brenda" />
+
+            <RadioButton
+                android:id="@+id/radioThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/thandiswa" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/headingTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/year"
+
+            />
+
+
+        <RadioGroup
+            android:id="@+id/soulTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+
+            <RadioButton
+                android:id="@+id/radioClkk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/mafikizolo" />
+
+            <RadioButton
+                android:id="@+id/radioBtnn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tkz" />
+
+            <RadioButton
+                android:id="@+id/radioBtnnn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/freshly" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/HeadingThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/piano"
+
+            />
+
+
+        <RadioGroup
+            android:id="@+id/soulThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+
+            <RadioButton
+                android:id="@+id/radioBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/robert" />
+
+            <RadioButton
+                android:id="@+id/radioClk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pianoAns" />
+
+            <RadioButton
+                android:id="@+id/radioClkkk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cole" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/black"
+
+            />
+
+
+        <RadioGroup
+            android:id="@+id/soulFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/soweto" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blackAns" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jozi" />
+
+
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/rosyBrown"
+                android:onClick="submitHere"
+                android:text="@string/submit" />
+
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>
