@@ -20,6 +20,8 @@ public class SoulActivity extends AppCompatActivity
     RadioButton selected;
     int points, correct;
     String answer;
+    String answer2;
+    String answer3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,13 +46,13 @@ public class SoulActivity extends AppCompatActivity
 
                 if (checkedId == R.id.radioTwo)
                 {
-                  answer = "Brenda Fassie";
+                    answer = "1. Brenda Fassie is correct!";
                     points = points + 10;
                     correct++;
                 }
                 else
                 {
-                    answer ="";
+                    answer ="1. The correct answer is Brenda Fassie";
                     points += 0;
                 }
 
@@ -63,17 +65,17 @@ public class SoulActivity extends AppCompatActivity
             public void onCheckedChanged(RadioGroup group, int checkedId)
             {
                 selected = (RadioButton) rdgGroup2.findViewById(checkedId);
-                String answer = selected.getText().toString();
+                 answer2 = selected.getText().toString();
 
                 if (checkedId == R.id.radioBtnn)
                 {
-                    answer = "TKZ";
+                    answer2 = answer + "\n2. TKZ is correct!";
                     points = points + 10;
                     correct++;
                 }
                 else
                 {
-                    answer ="";
+                    answer2 = answer + "\n 2. The correct answer is TKZ";
                     points += 0;
                 }
 
@@ -86,17 +88,17 @@ public class SoulActivity extends AppCompatActivity
             public void onCheckedChanged(RadioGroup group, int checkedId)
             {
                 selected = (RadioButton) rdgGroup3.findViewById(checkedId);
-                String answer = selected.getText().toString();
+                answer3 = selected.getText().toString();
 
                 if (checkedId == R.id.radioClk)
                 {
-                    answer = "";
+                    answer3 = answer2 + "\n3. Bartolomeo di Francesco Cristofori";
                     points = points + 10;
                     correct++;
                 }
                 else
                 {
-                    answer ="";
+                   answer3 = answer2 + "\n 3. The correct answer is Bartolomeo di Francesco Cristofori";
                     points += 0;
                 }
 
@@ -109,7 +111,7 @@ public class SoulActivity extends AppCompatActivity
             public void onCheckedChanged(RadioGroup group, int checkedId)
             {
                 selected = (RadioButton) rdgGroup4.findViewById(checkedId);
-                String answer = selected.getText().toString();
+                answer = selected.getText().toString();
 
                 if (checkedId == R.id.radioButton3)
                 {
@@ -136,7 +138,7 @@ public class SoulActivity extends AppCompatActivity
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setIcon(R.drawable.images);
         builder.setTitle("quizzitions");
-        builder.setMessage("Points:" + points + "\nCorrect Answers: " + answer);
+        builder.setMessage("Points:" + points + "\nCorrect Answers:\n " + answer2);
         builder.setNegativeButton("OK", null);
         builder.show();
 
