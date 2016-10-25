@@ -53,7 +53,12 @@
     <string name="hair">Long hair</string>
     <string name="country"><u>Which is agriculturally self sufficient country in Europe</u></string>
     <string name="france">France</string>
-    <string name="">Long hair</string>
+    <string name="italy">Italy</string>
+    <string name="greece">Greece</string>
+    <string name="planet"><u>The only planet that rotates clockwise is...</u></string>
+    <string name="venus">Venus</string>
+    <string name="pluto">Pluto</string>
+    <string name="mercury">Mercury</string>
 
 
 </resources>

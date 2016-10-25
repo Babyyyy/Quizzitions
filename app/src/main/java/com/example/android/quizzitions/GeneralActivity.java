@@ -46,7 +46,7 @@ public class GeneralActivity extends AppCompatActivity
                 if (checkedId == R.id.radioTwo)
                 {
                     answer = "1. Giraffe is correct!";
-                    points = points + 33;
+                    points = points + 10;
                     correct++;
                 } else
                 {
@@ -66,11 +66,11 @@ public class GeneralActivity extends AppCompatActivity
 
                 if (checkedId == R.id.radioBtnn)
                 {
-                    answer1 = answer + "\n 2. ";
-                    points = points + 33;
+                    answer1 = answer + "\n 2. Curvy hips is correct!";
+                    points = points + 10;
                     correct++;
                 } else {
-                    answer = "";
+                    answer1 = answer + "\n 2. The correct answer is Curvy Hips";
                     points += 0;
                 }
             }
@@ -82,15 +82,15 @@ public class GeneralActivity extends AppCompatActivity
             public void onCheckedChanged(RadioGroup group, int checkedId)
             {
                 selected = (RadioButton) genThree.findViewById(checkedId);
-                String answer = selected.getText().toString();
+                answer2 = selected.getText().toString();
 
                 if (checkedId == R.id.radioClk)
                 {
-                    answer = "";
-                    points = points + 33;
+                    answer2 = answer1 + "\n 3. France is correct!";
+                    points = points + 10;
                     correct++;
                 } else {
-                    answer = "";
+                    answer2 = answer1 + "\n 3. The correct answer is France";
                     points += 0;
                 }
             }
@@ -102,15 +102,15 @@ public class GeneralActivity extends AppCompatActivity
             public void onCheckedChanged(RadioGroup group, int checkedId)
             {
                 selected = (RadioButton) genFour.findViewById(checkedId);
-                String answer = selected.getText().toString();
+                answer3 = selected.getText().toString();
 
                 if (checkedId == R.id.radioButton2)
                 {
-                    answer = "";
-                    points = points + 33;
+                    answer3 = answer2 + "\n 4. Venus is correct!";
+                    points = points + 10;
                     correct++;
                 } else {
-                    answer = "";
+                    answer3 = answer2 + "\n 3. The correct answer is Venus";
                     points += 0;
                 }
             }
@@ -127,7 +127,7 @@ public class GeneralActivity extends AppCompatActivity
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setIcon(R.drawable.images);
         builder.setTitle("quizzitions");
-        builder.setMessage("Points:" + points + "\nCorrect Answers: " + correct);
+        builder.setMessage("Points:" + points + "\nCorrect Answers: " + answer3);
         builder.setNegativeButton("OK", null);
         builder.show();
 
