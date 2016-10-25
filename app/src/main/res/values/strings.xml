@@ -6,7 +6,7 @@
     <string name="reggae"><u>Reggae</u></string>
     <string name="enter">Lets get dancing</string>
     <string name="musics"><u><i>Lets dance</i></u></string>
-    <string name="queen"><u>Who is the queen of soul music?</u></string>
+    <string name="queen"><u>1. What is the most expensive perfume in the world?</u></string>
     <string name="king"><u><b>Who is the queen of soul music?</b></u></string>
     <string name="goBack">I think this is too hard!</string>
     <string name="submit">I wanna know how I did!</string>
@@ -28,4 +28,32 @@
     <string name="jozi">Jozi</string>
     <string name="robert">Robert de Niro</string>
     <string name="cole">Cole Sprouse</string>
+    <string name="perfume">DKNY Golden Delicious Million Dollar Fragrance Bottle</string>
+    <string name="chanel">Chanel Grand Extrait</string>
+    <string name="caron">Caron Poivre</string>
+    <string name="bag"><u>2. Most Expensive Hermes Handbags Ever for Ladies</u></string>
+    <string name="hermes">The Hermes Chaine d Ancre</string>
+    <string name="kelly">Kelly handbag in Bag</string>
+    <string name="crocodile">Graphite Crocodile bag</string>
+    <string name="wig"><u>3. The best hair wig for ladies</u></string>
+    <string name="rene">Noriko for Rene of Paris Shilo wig</string>
+    <string name="bobbi">Bobbi Boss Lace front wig</string>
+    <string name="penelope">Penelope by Envy Wigs</string>
+    <string name="gel">4. The best hair gel for men</string>
+    <string name="klein">Calvin Klein Euphoria Men Body wash</string>
+    <string name="allen">Allen Body Wash Version 1.06</string>
+    <string name="axe">Axe Recovery shower gel</string>
+    <string name="animal"><u>Which animal can clean its own ears with its tongue?</u></string>
+    <string name="elephant">Elephant</string>
+    <string name="hippo">Hippo</string>
+    <string name="giraffe">Giraffe</string>
+    <string name="women"><u>Which woman body part indicates that she is smart and will bring intelligent children to the world?</u></string>
+    <string name="curves">Curvy hips</string>
+    <string name="eyes">White eyes</string>
+    <string name="hair">Long hair</string>
+    <string name="country"><u>Which is agriculturally self sufficient country in Europe</u></string>
+    <string name="france">France</string>
+    <string name="">Long hair</string>
+
+
 </resources>

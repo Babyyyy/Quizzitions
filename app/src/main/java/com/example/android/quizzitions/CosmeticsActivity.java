@@ -20,6 +20,10 @@ public class CosmeticsActivity extends AppCompatActivity
     RadioGroup radio1, radio2, radio3, radio4;
     RadioButton selected;
     int points, correct;
+    String answer;
+    String answer1;
+    String answer2;
+    String answer3;
 
 
     @Override
@@ -41,17 +45,17 @@ public class CosmeticsActivity extends AppCompatActivity
             public void onCheckedChanged(RadioGroup group, int checkedId)
             {
                 selected = (RadioButton) radio1.findViewById(checkedId);
-                String answer = selected.getText().toString();
+                answer = selected.getText().toString();
 
                 if (checkedId == R.id.cosThree)
                 {
-                    answer = "";
-                    points = points + 33;
+                    answer = "1. DKNY Golden Delicious Million Dollar Fragrance Bottle is correct!";
+                    points = points + 10;
                     correct++;
                 }
                 else
                 {
-                    answer ="";
+                    answer ="1. The correct answer is DKNY Golden Delicious Million Dollar Fragrance Bottle";
                     points += 0;
                 }
             }
@@ -62,17 +66,17 @@ public class CosmeticsActivity extends AppCompatActivity
             public void onCheckedChanged(RadioGroup group, int checkedId)
             {
                 selected = (RadioButton) radio2.findViewById(checkedId);
-                String answer = selected.getText().toString();
+                answer1 = selected.getText().toString();
 
                 if (checkedId == R.id.radioBtnn)
                 {
-                    answer = "";
-                    points = points + 33;
+                    answer1 = answer + "\n2. The Hermes Chaine d Ancre is correct!";
+                    points = points + 10;
                     correct++;
                 }
                 else
                 {
-                    answer ="";
+                    answer1 = answer + "\n2. The correct answer is The Hermes Chaine d Ancre";
                     points += 0;
                 }
             }
@@ -85,15 +89,15 @@ public class CosmeticsActivity extends AppCompatActivity
                 selected = (RadioButton) radio3.findViewById(checkedId);
                 String answer = selected.getText().toString();
 
-                if (checkedId == R.id.cosThree)
+                if (checkedId == R.id.cosSix)
                 {
-                    answer = "";
-                    points = points + 33;
+                    answer2 = answer1 + "\n3. Noriko for Rene of Paris Shilo wig is correct!";
+                    points = points + 10;
                     correct++;
                 }
                 else
                 {
-                    answer ="";
+                    answer2 = answer1 +"\n3. The correct answer is Noriko for Rene of Paris Shilo wig";
                     points += 0;
                 }
             }
@@ -108,13 +112,13 @@ public class CosmeticsActivity extends AppCompatActivity
 
                 if (checkedId == R.id.cosmTwo)
                 {
-                    answer = "";
-                    points = points + 33;
+                    answer3 = answer2 + "\n4. Calvin Klein Euphoria Men Body wash is correct!";
+                    points = points + 10;
                     correct++;
                 }
                 else
                 {
-                    answer ="";
+                    answer3 = answer2 + "\n4. The correct answer is Calvin Klein Euphoria Men Body wash";
                     points += 0;
                 }
             }
@@ -128,7 +132,7 @@ public class CosmeticsActivity extends AppCompatActivity
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setIcon(R.drawable.images);
         builder.setTitle("quizzitions");
-        builder.setMessage("Points:" + points + "\nCorrect Answers: " + correct);
+        builder.setMessage("Points:" + points + "\nCorrect Answers: \n" + answer3);
         builder.setNegativeButton("OK", null);
         builder.show();
 

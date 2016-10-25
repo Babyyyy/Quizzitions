@@ -22,6 +22,7 @@ public class SoulActivity extends AppCompatActivity
     String answer;
     String answer2;
     String answer3;
+    String answer4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,7 +93,7 @@ public class SoulActivity extends AppCompatActivity
 
                 if (checkedId == R.id.radioClk)
                 {
-                    answer3 = answer2 + "\n3. Bartolomeo di Francesco Cristofori";
+                    answer3 = answer2 + "\n3. Bartolomeo di Francesco Cristofori is correct!";
                     points = points + 10;
                     correct++;
                 }
@@ -111,17 +112,17 @@ public class SoulActivity extends AppCompatActivity
             public void onCheckedChanged(RadioGroup group, int checkedId)
             {
                 selected = (RadioButton) rdgGroup4.findViewById(checkedId);
-                answer = selected.getText().toString();
+                answer4 = selected.getText().toString();
 
                 if (checkedId == R.id.radioButton3)
                 {
-                    answer = "";
+                    answer4 = answer3 + "\n 4. Ladysmith Black Mambazo is correct!";
                     points = points + 10;
                     correct++;
                 }
                 else
                 {
-                    answer ="";
+                    answer4 = answer3 + "\n 4. The correct answer is Ladysmith Black Mambazo";
                     points += 0;
                 }
 
@@ -138,7 +139,7 @@ public class SoulActivity extends AppCompatActivity
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setIcon(R.drawable.images);
         builder.setTitle("quizzitions");
-        builder.setMessage("Points:" + points + "\nCorrect Answers:\n " + answer2);
+        builder.setMessage("Points:" + points + "\nCorrect Answers:\n " + answer4);
         builder.setNegativeButton("OK", null);
         builder.show();
 

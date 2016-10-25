@@ -34,9 +34,10 @@
             android:id="@+id/headingOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25sp"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
-            android:text="@string/queen"
+            android:text="@string/animal"
 
             />
 
@@ -48,22 +49,23 @@
 
 
             <RadioButton
-                android:id="@+id/radioOne"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="RadioButton" />
-
-            <RadioButton
                 android:id="@+id/radioTwo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/giraffe"
+                />
+
+            <RadioButton
+                android:id="@+id/radioOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hippo" />
 
             <RadioButton
                 android:id="@+id/radioThree"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/elephant" />
 
         </RadioGroup>
 
@@ -71,10 +73,11 @@
             android:id="@+id/headingTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25sp"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="@string/king"
+            android:text="@string/women"
 
             />
 
@@ -91,19 +94,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="RadioButton" />
+                android:text="@string/hair" />
 
             <RadioButton
                 android:id="@+id/radioBtnn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/curves" />
 
             <RadioButton
                 android:id="@+id/radioBtnnn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/eyes" />
 
         </RadioGroup>
 
@@ -111,10 +114,11 @@
             android:id="@+id/HeadingThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25sp"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="@string/king"
+            android:text="@string/country"
 
             />
 
@@ -152,6 +156,7 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25sp"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"

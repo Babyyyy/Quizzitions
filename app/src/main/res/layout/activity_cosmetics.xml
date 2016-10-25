@@ -34,6 +34,7 @@
             android:id="@+id/headingOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25sp"
             android:layout_marginBottom="10dp"
             android:layout_marginStart="10dp"
             android:text="@string/queen"
@@ -51,19 +52,19 @@
                 android:id="@+id/cosThree"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/perfume" />
 
             <RadioButton
                 android:id="@+id/cosOne"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/chanel" />
 
             <RadioButton
                 android:id="@+id/cosTwo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/caron" />
 
         </RadioGroup>
 
@@ -71,10 +72,11 @@
             android:id="@+id/headingTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25sp"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="@string/king"
+            android:text="@string/bag"
 
             />
 
@@ -91,19 +93,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="RadioButton" />
+                android:text="@string/kelly" />
 
             <RadioButton
                 android:id="@+id/radioBtnn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/hermes" />
 
             <RadioButton
                 android:id="@+id/radioBtnnn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/crocodile" />
 
         </RadioGroup>
 
@@ -111,10 +113,11 @@
             android:id="@+id/HeadingThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25sp"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="@string/king"
+            android:text="@string/wig"
 
             />
 
@@ -131,20 +134,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="RadioButton" />
+                android:text="@string/bobbi" />
 
             <RadioButton
                 android:id="@+id/cosFive"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="RadioButton" />
+                android:text="@string/penelope" />
 
             <RadioButton
                 android:id="@+id/cosSix"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/rene" />
 
         </RadioGroup>
 
@@ -152,10 +155,11 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="25sp"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="@string/king"
+            android:text="@string/gel"
 
             />
 
@@ -171,19 +175,19 @@
                 android:id="@+id/cosmOne"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/allen" />
 
             <RadioButton
                 android:id="@+id/cosmTwo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/klein" />
 
             <RadioButton
                 android:id="@+id/cosmFour"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="@string/axe" />
 
 
             <Button

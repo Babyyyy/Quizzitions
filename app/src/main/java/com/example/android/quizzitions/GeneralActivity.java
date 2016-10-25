@@ -16,6 +16,10 @@ public class GeneralActivity extends AppCompatActivity
     RadioGroup genOne, genTwo, genThree, genFour;
     RadioButton selected;
     int points, correct;
+    String answer;
+    String answer1;
+    String answer2;
+    String answer3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -37,16 +41,16 @@ public class GeneralActivity extends AppCompatActivity
             public void onCheckedChanged(RadioGroup group, int checkedId)
             {
                 selected = (RadioButton) genOne.findViewById(checkedId);
-                String answer = selected.getText().toString();
+                answer = selected.getText().toString();
 
                 if (checkedId == R.id.radioTwo)
                 {
-                    answer = "";
+                    answer = "1. Giraffe is correct!";
                     points = points + 33;
                     correct++;
                 } else
                 {
-                    answer = "";
+                    answer = "1. The correct answer is Giraffe";
                     points += 0;
                 }
             }
@@ -58,11 +62,11 @@ public class GeneralActivity extends AppCompatActivity
             public void onCheckedChanged(RadioGroup group, int checkedId)
             {
                 selected = (RadioButton) genTwo.findViewById(checkedId);
-                String answer = selected.getText().toString();
+                answer1 = selected.getText().toString();
 
                 if (checkedId == R.id.radioBtnn)
                 {
-                    answer = "";
+                    answer1 = answer + "\n 2. ";
                     points = points + 33;
                     correct++;
                 } else {
