@@ -15,10 +15,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SoulActivity" />
-        <activity android:name=".CosmeticsActivity" />
-        <activity android:name=".GeneralActivity" />
-        <activity android:name=".ResultsActivity"></activity>
+        <activity android:name=".SoulActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".CosmeticsActivity"
+        android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".GeneralActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".ResultsActivity"
+            android:parentActivityName=".MainActivity"></activity>
+
+
+
     </application>
 
 </manifest>

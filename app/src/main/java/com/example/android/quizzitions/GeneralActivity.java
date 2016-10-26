@@ -26,7 +26,7 @@ public class GeneralActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_general);
-
+        setTitle("General Knowledge");
 
         btnDisplay = (Button) findViewById(R.id.submit);
         genOne = (RadioGroup) findViewById(R.id.genKnow);

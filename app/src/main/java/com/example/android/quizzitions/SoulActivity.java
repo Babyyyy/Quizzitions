@@ -28,7 +28,7 @@ public class SoulActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soul);
-
+        setTitle("Soul");
 
         btnDisplay = (Button) findViewById(R.id.submit);
         rdgGroup1 = (RadioGroup) findViewById(R.id.soulOne);

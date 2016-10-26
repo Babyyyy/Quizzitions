@@ -32,6 +32,7 @@ public class CosmeticsActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cosmetics);
         setTitle("Cosmetics");
+
         
         btnDisplay = (Button) findViewById(R.id.submit);
         radio1 = (RadioGroup) findViewById(R.id.CosmeticsOne);
@@ -131,7 +132,7 @@ public class CosmeticsActivity extends AppCompatActivity
     {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setIcon(R.drawable.images);
-        builder.setTitle("quizzitions");
+        builder.setTitle("Quizzitions");
         builder.setMessage("Points:" + points + "\nCorrect Answers: \n" + answer3);
         builder.setNegativeButton("OK", null);
         builder.show();
